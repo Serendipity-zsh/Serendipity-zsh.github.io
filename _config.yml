@@ -5,20 +5,18 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: 不断学习 > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description:  > # this means to ignore newlines until "baseurl:"
+  不断学习，不断进步
 
 # Author details for the jekyll-seo-tag gem
-author: Serendipity-zsh
+author: 
   name: Serendipity-zsh
   email: 1141792212@qq.com
   twitter: # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: 我的个人github
+  name: my github
   links:
     - https://github.com/Serendipity-zsh
 
