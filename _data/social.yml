@@ -2,7 +2,7 @@
   link: 
   social_icon: Facebook
   new_window: true
-- name: RSS
-  link: '/feed.xml'
-  social_icon: RSS
+# - name: RSS
+#   link: '/feed.xml'
+#   social_icon: RSS
   new_window: true
