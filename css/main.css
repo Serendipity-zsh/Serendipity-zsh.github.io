@@ -2457,7 +2457,7 @@
 
 	#header {
 		background-color: #1f1815;
-		background-attachment: scroll,								fixed;
+		background-attachment: fixed,		 					       scroll;
 		background-image: url("images/overlay.png"), url("../images/bg.jpg"); /*个人界面的背景*/
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
@@ -2922,7 +2922,7 @@
 		/* Footer */
 
 			#footer {
-				background-attachment: scroll;
+				background-attachment: fixed;
 				background-color: #1f1815;
 				background-image: url("images/overlay.png"), url("../images/bg.jpg"); /*个人界面的背景*/
 				background-position: top left,						bottom center;
