@@ -60,7 +60,7 @@ Connections              ttl     opn     rt1     rt5     p50     p90
 整合参考：https://www.cnblogs.com/zeng1994/p/03303c805731afc9aa9c60dbbd32a323.html
 
 
-[菜鸟教程]("https://www.runoob.com/redis/redis-tutorial.html")
+[菜鸟教程](https://www.runoob.com/redis/redis-tutorial.html)
 
 
 ## 6、RESTful API设计：
