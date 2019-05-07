@@ -1,55 +1,55 @@
 # Strata Reloaded
 
-Simple, clean personal blogging template for Jekyll based on Strata by HTML5 UP.
+基于Strata by HTML5 UP的Jekyll简单、干净的个人博客模板
 
-## Features
+## 特征
 
-* Parallax background effect
-* Lightbox gallery
-* Pre-styled components
-* Blog with pagination
-* Configurable footer
-* Optimized for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
-* Webmaster Verification
+* 视觉背景效果
+* 灯箱画廊
+* Pre-styled 组件
+* 博客分页
+* 可配置的页脚
+* 针对 [CloudCannon](http://cloudcannon.com/)进行了优化
+* RSS/Atom 提要
+* SEO 标签
+* Google 分析
+* web管理员验证
+
+## 开发
+
+1. 添加您的网站和作者详细信息_config.yml。
+2. 将您的Google Analytics密钥添加到_config.yml
+3. 获取工作流程以查看您网站的输出 (使用 [CloudCannon](https://app.cloudcannon.com/) 或者 本地的 Jekyll).
 
 ## Develop
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics key to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+Urban 是使用 [Jekyll](http://jekyllrb.com/) 版本 3.3.1 构建的, 但也支持更新版本
 
-## Develop
-
-Urban was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
-
-Install the dependencies with [Bundler](http://bundler.io/):
+使用 [Bundler](http://bundler.io/) 安装依赖项 :
 
 ~~~bash
-$ bundle install
+$ bundle 安装
 ~~~
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+ `jekyll` 通过Bundler 运行命令以确保您使用正确的版本：
 
 ~~~bash
-$ bundle exec jekyll serve
+$ bundle exec jekyll 服务
 ~~~
 
-## Editing
+## 编辑
 
 
-### Posts
+### 博客
 
-* Add, update or remove a post in the *Posts* collection.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
+* 添加，更新或删除帖子集合中的博客
+* 创建新博客时更改默认值 `_posts/_defaults.md`
 
-### Footer
+### 页脚
 
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
+* 作为数据文件公开，为客户提供更好的访问权限。
+* 在“ 数据 / 页脚 ”部分中设置
 
 ## License
 
-Free for personal and commercial use under the CCA 3.0 license. See LICENSE file for additional information and terms of use. This theme was adapted from Strata by HTML5 UP for use with [CloudCannon](http://cloudcannon.com) by [Comfusion LLC](http://comfusionllc.com).
+根据CCA 3.0许可免费用于个人和商业用途。有关其他信息和使用条款，请参阅LICENSE文件。该主题改编自Strata by HTML5 UP，并与 [CloudCannon](http://cloudcannon.com) 的 [Comfusion LLC](http://comfusionllc.com)一起使用
