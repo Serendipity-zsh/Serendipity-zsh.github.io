@@ -1,4 +1,4 @@
-# Strata Reloaded
+# Serendipity-zsh
 
 基于Strata by HTML5 UP的Jekyll简单、干净的个人博客模板
 
