@@ -2,6 +2,7 @@
 layout: post
 ---
 <img src="/images/fulls/03.jpg" class="fit image"> 
+
 # Leaving-Wechat 项目记录
 
 ## 1、微信小程序测试号
