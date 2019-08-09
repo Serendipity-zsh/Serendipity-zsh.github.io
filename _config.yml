@@ -19,7 +19,7 @@ sidebar-avatar: /img/about-serendipity.jpg     # 个人头像
 # SNS settings
 RSS: false
 # weibo_username:     
-zhihu_username:     海豪
+zhihu_username:     Serendipity-zsh
 github_username:    Serendipity-zsh
 facebook_username:  
 jianshu_username:   
@@ -56,8 +56,8 @@ kramdown:
 
 
 # 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: Serendipity_zsh
+ Disqus（https://disqus.com/）
+ disqus_username: Serendipity_zsh
 
 # Gitalk
 #gitalk:
