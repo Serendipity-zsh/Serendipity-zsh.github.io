@@ -21,10 +21,9 @@ AppSecret ：b4093a612ecde19fc05456763ee95c06
 ## 2、内网穿透：ngrok
 
 暴露出本地端口号，自动生成一个域名，可远程访问，记录访问情况
+![image](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/blob/master/img/blogs/ngrok01.jpg)
 
-<img src="/img/blogs/ngrok01.jpg" class="fit image"> 
-
-<img src="/img/blogs/ngrok02.jpg" class="fit image"> 
+![image](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/blob/master/img/blogs/ngrok02.jpg)
 
 
 Session Status           online
@@ -72,7 +71,7 @@ Connections              ttl     opn     rt1     rt5     p50     p90
 
 ## 6、RESTful API设计：
 
-<img src="/img/blogs/APIdesign.jpg" class="fit image"> 
+![image](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/blob/master/img/blogs/APIdesign.jpg)
 
 
 ## 7、错误集锦
@@ -95,7 +94,7 @@ service层必须和serviceImpl层放在同一个包下
 
 #### 解决：
 
-<img src="/img/blogs/lianjiechi.jpg" class="fit image"> 
+![image](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/blob/master/img/blogs/lianjiechi.jpg)
 
 ### 3、扫描不到controller
 
@@ -114,7 +113,7 @@ service层必须和serviceImpl层放在同一个包下
 The server time zone value 'ÖÐ¹ú±ê×¼Ê±¼ä' is unrecognized or represents more than one time zone
 
 #### 解决：
-<img src="/img/blogs/shiqu.jpg" class="fit image"> 
+![image](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/blob/master/img/blogs/shiqu.jpg)
 
 ### 5、数据库调不出来
 
@@ -141,7 +140,7 @@ Access denied for user 'root'@'localhost' (using password: YES)
 ### 7、web界面显示错误
 
 #### 描述：
-<img src="/img/blogs/webWrong.jpg" class="fit image"> 
+![image](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/blob/master/img/blogs/webWrong.jpg)
 
 #### 解决：
 
@@ -150,7 +149,7 @@ Admin实体里面多了asex，aname,adepartment的get和set方法
 ### 8、数据显示错误
 
 #### 描述：
-<img src="/img/blogs/dataDisplay.jpg" class="fit image"> 
+![image](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/blob/master/img/blogs/dataDisplay.jpg)
 
 #### 解决：
 
