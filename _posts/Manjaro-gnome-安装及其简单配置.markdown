@@ -16,11 +16,11 @@ tags:
 
 
 
-## manjaro gnome 安装及其简单配置
+# Manjaro gnome 安装及其简单配置
 
 ## 1、配置相关源
 
-# 排列源
+### 排列源
 
 ```bash
 sudo pacman-mirrors -g
@@ -32,25 +32,25 @@ sudo pacman-mirrors -g
 sudo pacman-mirrors -c China
 ```
 
-# 同步
+### 同步
 
 ```bash
 sudo pacman-optimize && sync 
 ```
 
-# 升级系统
+### 升级系统
 
 ```bash
 sudo pacman -Syyu
 ```
 
-### 设置更新源
+#### 设置更新源
 
 ```bash
 sudo pacman-mirrors -gb testing -c China
 ```
 
-### 安装aria2并加速源下载
+#### 安装aria2并加速源下载
 
 ```bash
 sudo pacman -S aria2
@@ -60,7 +60,7 @@ Tips：注意第二步会对固态硬盘出现问题。参见[固态问题](http
 
 但是如果你在安装时候选择了中文，就不用去配置软件源。因为已经自动配置。此后可以配置archlinuxcn源，便于我们安装一些软件例如`Google-Chrome`等。
 
-### 切换中国源
+#### 切换中国源
 
 ```bash
 sudo gedit /etc/pacman.conf
@@ -91,7 +91,7 @@ gedit /etc/pacman-mirrors.conf
 OnlyCountry = China
 ```
 
-### 更新源列表
+#### 更新源列表
 
 ```bash
 sudo pacman -Syyu
@@ -123,7 +123,7 @@ sudo pacman -S archlinuxcn-keyring
  sudo pacman-key --populate archlinuxcn
 ```
 
-### 安装yaourt以及pacaur
+#### 安装yaourt以及pacaur
 
 ```
 sudo pacman -S yaourt pacaur
