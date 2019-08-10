@@ -22,8 +22,8 @@ sidebar-avatar: /img/about-serendipity.jpg
 # SNS settings
 RSS: false
 # weibo_username:     
-zhihu_username:     hai-hao-52-25/activities
-github_username:    Serendipity-zsh
+zhihu_username:
+github_username: Serendipity-zsh
 facebook_username:  
 jianshu_username:   
 #twitter_username:   
