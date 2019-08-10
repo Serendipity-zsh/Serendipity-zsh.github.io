@@ -1,7 +1,7 @@
 # Site settings
 
-#title: "Serendipity-zsh"   #博客主题
-#SEOTitle: Serendipity-zsh的博客  #显示在浏览器上搜索的时候显示的标题
+title: "Serendipity-zsh"   #博客主题
+SEOTitle: Serendipity-zsh的博客  #显示在浏览器上搜索的时候显示的标题
 header-img: img/post-bg-desk.jpg #显示在首页的背景图片
 email: 1141792212@qq.com
 description: "The daily learning record of a rookie"
