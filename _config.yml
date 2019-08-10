@@ -21,7 +21,7 @@ sidebar-avatar: /img/about-serendipity.jpg
 # SNS settings
 RSS: false
 # weibo_username:     
-zhihu_username:
+zhihu_username: hai-hao-52-25/activities
 github_username: Serendipity-zsh
 facebook_username:  
 jianshu_username:   
@@ -96,7 +96,7 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-force-https: false
+force-https: false  #没有这行，一直报错
 
 # Friends
 #friends: [
