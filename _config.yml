@@ -3,7 +3,7 @@ title: Serendipity-zsh #博客标题
 SEOTitle: Serendipity-zsh的博客  #显示在浏览器上搜索的时候显示的标题
 header-img: img/post-bg-desk.jpg #显示在首页的背景图片
 email: 1141792212@qq.com
-description: "A rookie 的日常学习记录"
+description: "The daily learning record of a rookie"
 keyword: "Serendipity, Serendipity, Serendipity-zsh的博客, zsh,张世豪, Java, SpringBoot, 后台" #关键词
 url: "http://https://serendipity-zsh.github.io/"          # 博客地址
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
