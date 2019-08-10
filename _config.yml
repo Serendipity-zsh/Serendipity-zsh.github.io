@@ -1,20 +1,21 @@
 # Site settings
 
-title: "Serendipity-zsh"   #博客主题
-SEOTitle: Serendipity-zsh的博客  #显示在浏览器上搜索的时候显示的标题
-header-img: img/post-bg-desk.jpg #显示在首页的背景图片
+title: "Serendipity-zsh"   
+SEOTitle: Serendipity-zsh的博客  
+header-img: img/post-bg-desk.jpg 
 email: 1141792212@qq.com
 description: "The daily learning record of a rookie"
-keyword: "Serendipity, Serendipity, Serendipity-zsh的博客, zsh,张世豪, Java, SpringBoot, 后台" #关键词
-url: "http://https://serendipity-zsh.github.io/"          # 博客地址
+keyword: "Serendipity, Serendipity, Serendipity-zsh的博客, zsh,张世豪, Java, SpringBoot, 后台" 
+url: "http://https://serendipity-zsh.github.io/"          
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/serendipity-zsh.github.io/" # 代码仓库
+github_repo: "https://github.com/serendipity-zsh.github.io/" 
 
 
 # Sidebar settings
-sidebar: true                           # 开启侧边栏
+sidebar: true                           
 sidebar-about-description: "学习&&探索"
-sidebar-avatar: /img/about-serendipity.jpg     # 个人头像
+sidebar-avatar: /img/about-serendipity.jpg     
+
 
 
 
