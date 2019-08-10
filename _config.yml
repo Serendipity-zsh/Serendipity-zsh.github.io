@@ -1,5 +1,5 @@
 # Site settings
----
+
 #title: "Serendipity-zsh"   #博客主题
 SEOTitle: Serendipity-zsh的博客  #显示在浏览器上搜索的时候显示的标题
 header-img: img/post-bg-desk.jpg #显示在首页的背景图片
@@ -9,7 +9,7 @@ keyword: "Serendipity, Serendipity, Serendipity-zsh的博客, zsh,张世豪, Jav
 url: "http://https://serendipity-zsh.github.io/"          # 博客地址
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/serendipity-zsh.github.io/" # 代码仓库
----
+
 
 # Sidebar settings
 sidebar: true                           # 开启侧边栏
