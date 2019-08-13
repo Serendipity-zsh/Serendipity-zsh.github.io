@@ -8,8 +8,6 @@ catelog: true
 tags:
     -ArchLinux
     -Manjaro
-
-
 ---
 
 
@@ -56,7 +54,6 @@ sudo pacman-mirrors -gb testing -c China
 sudo pacman -S aria2
 ```
 
-Tips：注意第二步会对固态硬盘出现问题。参见[固态问题](https://link.juejin.im?target=https%3A%2F%2Fwiki.manjaro.org%2Findex.php%3Ftitle%3DPacman_Tips%23Optimize_the_database_access_speed)
 
 但是如果你在安装时候选择了中文，就不用去配置软件源。因为已经自动配置。此后可以配置archlinuxcn源，便于我们安装一些软件例如`Google-Chrome`等。
 
@@ -130,7 +127,6 @@ sudo pacman -S yaourt pacaur
 复制代码
 ```
 
-Tips:其中的Server后的地址可以自己去添加不一样的archlinuxcn源，[帮助](https://link.juejin.im?target=https%3A%2F%2Flug.ustc.edu.cn%2Fwiki%2Fmirrors%2Fhelp%2Farchlinuxcn)
 
 导入GPG Key
 
