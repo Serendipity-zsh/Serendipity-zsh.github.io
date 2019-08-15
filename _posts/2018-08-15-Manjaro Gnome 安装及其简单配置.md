@@ -5,7 +5,7 @@ title: "Manjaro GNOME安装及其简单配置"
 date: 2019-08-15 
 description: "Manjaro安装，Linux Arch，Gnome配置"
 
-## tag: 博客 
+## tag: Manjaro 
 
 ## Manjaro GNOME安装及其简单配置
 
