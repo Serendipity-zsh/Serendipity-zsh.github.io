@@ -10,7 +10,7 @@ url: "Serendipity-zsh.github.io"
 
 # Comment
 comment:
-    disqus: leopard
+    disqus: Serendipity_zsh
     # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
     # uyan: 2143225  # 有言id,登录有言官网申请
 
@@ -18,7 +18,7 @@ comment:
 social:
     weibo:  
     github: Serendipity-zsh
-    # zhihu: hai-hao-52-25/activities
+    zhihu: hai-hao-52-25/activities
     # juejin: xxx
     jianshu: 
     # twitter: 
