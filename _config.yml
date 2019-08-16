@@ -11,16 +11,16 @@ url: "Serendipity-zsh.github.io"
 # Comment
 comment:
     disqus: Serendipity_zsh
-    # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
-    # uyan: 2143225  # 有言id,登录有言官网申请
+    gitment: Serendipity-zsh    # 需要修改 comments.html中的client_id和client_secret
+    # uyan: 2143225  # 友言id,登录友言官网申请
 
 # Social
 social:
-    weibo:  
+    #weibo:  
     github: Serendipity-zsh
     zhihu: hai-hao-52-25/activities
     # juejin: xxx
-    jianshu: 
+    #jianshu: 
     # twitter: 
     mail: 1141792212@qq.com
 
