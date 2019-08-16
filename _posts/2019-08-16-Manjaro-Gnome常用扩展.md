@@ -1,8 +1,10 @@
-layout: post   
-title: "Manjaro-Gnome常用扩展"   
-date: 2019-08-16  
-description: "Linux Arch，Manjaro Gnome，Gnome扩展"   
-tag:  Manjaro        
+---
+layout: post
+title: "Manjaro-Gnome常用扩展"
+date: 2019-08-16 
+description: "Linux Arch，Manjaro Gnome，Gnome扩展"
+tag: Manjaro 
+---  
 
 
 
