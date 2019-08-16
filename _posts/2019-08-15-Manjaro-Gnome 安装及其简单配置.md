@@ -1,9 +1,10 @@
+---
 layout: post  
 title: "Manjaro-Gnome安装及其简单配置"
 date: 2019-08-15  
 description: "Linux Arch，Manjaro Gnome，Gnome简单配置"  
 tag:  Manjaro                                                                                                  
-
+---
 ## 一、安装
 
 1、官网下载iso镜像，可以选择三个主题GNOME、KDE和
