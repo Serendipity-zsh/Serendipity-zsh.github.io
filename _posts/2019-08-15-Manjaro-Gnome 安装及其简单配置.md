@@ -19,7 +19,7 @@ tag: Manjaro
 
 分区前面的步骤，一看就知道了，这里说一下分区：顶端选择固态硬盘，然后选择**手动分区**，
 
-下一步，然后在你要给Manjaro的分区里面分个100Mb的分区，FAT32、/boot/efi、ecp
+下一步，然后在你要给Manjaro的分区里面分个100Mb的分区: FAT32、/boot/efi、ecp
 
 其余的ext4、/   ，然后下一步就可以了
 
@@ -31,12 +31,12 @@ tag: Manjaro
 
 1、更换国内源
 
-使用国内的源有更快的下载速度，pacman能够测试不同源的速度并给它们排名，从中选择一个快的即可。我选择的是上海交大sjtu的源，下载速度能够达到10兆每秒。
+使用国内的源有更快的下载速度，pacman能够测试不同源的速度并给它们排名，从中选择一个快的即可。
 
 ```bash
-sudo pacman -Syy
+sudo pacman -Syu
 sudo pacman-mirrors -i -c China -m rank
-sudo pacman -Syyu
+sudo pacman -Syu
 ```
 
 2、添加arch源
@@ -63,9 +63,13 @@ SigLevel = Optional TrustedOnly
 Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 ```
 
+**也可以在添加软件工具中，在首选项中打开AUR，从AUR检查更新即可**
+
 然后
 
+```bash
 sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
+```
 
 现在可以升级一下系统：
 
@@ -124,9 +128,8 @@ sudo pacman -S archlinuxcn-keyring
 
 6、导入GPG Key
 
-```
+```bash
 sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
-复制代码
 ```
 
 此后就可以去安装自己想要使用软件啦！！
@@ -311,7 +314,9 @@ sudo vim ~/.zshrc
 ​      （2）、插件
 
 ```bash
-# z命令快速跳转目录     x命令解压一切文件         命令行可以直接google  
+# z命令快速跳转目录，这个需要有路径记录
+#x命令解压一切文件         
+#命令行可以直接google  
 plugins=(
   git z zsh-autosuggestions extract web-search zsh-syntax-highlighting 
 )
