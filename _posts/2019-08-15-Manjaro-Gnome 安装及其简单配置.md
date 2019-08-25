@@ -158,6 +158,8 @@ https://linux.cn/article-10720-1.html
 
 在谷歌浏览器中装gnome-shell-extensions，可以在你的manjaro里添加各种扩展
 
+(具体的美化调优放在下一个博客写)
+
 ## 四、安装常用的工具
 
 1、安装Yay
