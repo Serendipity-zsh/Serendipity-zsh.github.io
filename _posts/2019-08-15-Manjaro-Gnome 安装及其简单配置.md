@@ -34,9 +34,10 @@ tag: Manjaro
 使用国内的源有更快的下载速度，pacman能够测试不同源的速度并给它们排名，从中选择一个快的即可。
 
 ```bash
-sudo pacman -Syu
+#Syy会自动检测并更新，Syyu会提示你是否更新
+sudo pacman -Syyu
 sudo pacman-mirrors -i -c China -m rank
-sudo pacman -Syu
+sudo pacman -Syyu
 ```
 
 2、添加arch源
