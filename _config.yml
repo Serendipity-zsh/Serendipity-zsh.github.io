@@ -11,7 +11,7 @@ url: "Serendipity-zsh.github.io"
 # Comment
 comment:
     disqus: Serendipity_zsh
-    gitment: Serendipity-zsh    # 需要修改 comments.html中的client_id和client_secret
+    # gitment: Serendipity-zsh    # 需要修改 comments.html中的client_id和client_secret
     # uyan: 2143225  # 友言id,登录友言官网申请
 
 # Social
@@ -22,7 +22,7 @@ social:
     # juejin: xxx
     #jianshu: 
     # twitter: 
-    mail: 1141792212@qq.com
+    mail: serendipity-zsh@foxmail.com
 
 
 # 百度统计 
