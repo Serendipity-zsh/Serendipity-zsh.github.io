@@ -32,34 +32,34 @@ yay -S gnome-shell-theme-copernico-git
 
 （可以在Gnome Shell Extensions上管理安装的扩展，也可以在Tweak Tool（优化）里面管理扩展和本地的个性化设置）
 
-1、Dash to Dock（系统自带）
+1. Dash to Dock（系统自带）
 
 调整桌面图标位置，设置透明度
 
-2、Coverflow Alt-Tab 
- alt-tab 切换效果美化
+2. Coverflow Alt-Tab 
+    alt-tab 切换效果美化
 
-3、GnomeStatsPro
- 系统监视器，显示电脑CPU状况
+3. GnomeStatsPro
+    系统监视器，显示电脑CPU状况
 
-4、simple net speed
- 显示实时网速
+4. simple net speed
+    显示实时网速
 
-5、Status Area Horizontal Spacing
- 使顶栏更加紧凑
+5. Status Area Horizontal Spacing
+    使顶栏更加紧凑
 
-6、(K)StatusNotifierItem/AppIndicator Support（系统自带）
- 可以在顶栏显示后台程序图标
+6. (K)StatusNotifierItem/AppIndicator Support（系统自带）
+    可以在顶栏显示后台程序图标
 
-7、Pamac Updates Indicator（系统自带）
- 提醒软件更新状态
+7. Pamac Updates Indicator（系统自带）
+    提醒软件更新状态
 
-8、User Themes (系统自带)
- 让用户可以使用shell主题
+8. User Themes (系统自带)
+    让用户可以使用shell主题
 
 ## 三、调优
 
-1、设置快捷键：
+1. 设置快捷键：
 
 启动终端：打开设置，设备中选择keyboard，添加快捷键
 
@@ -77,12 +77,29 @@ yay -S gnome-shell-theme-copernico-git
 
 快捷键：super+E（super键就是win键）
 
-2、大号字体
+2. 大号字体
 
 设置->通用辅助功能 开启 大号文本
 
-3、透明终端
+3. 透明终端
 
 manjaro默认的终端是不支持设置透明的，所以需要重新安装一个终端
 
 直接在软件管理里面，搜索gnome-terminal-fedora安装就可以了（可能需要重启电脑）
+
+4. Manjaro 2019-09-07更新出错
+
+   ```bash
+   yay -Syyu
+   ```
+
+   QQ的顶部图标消失，以为是数据源没有更新完，就又更新了一下
+
+   ```bash
+   yay -Syyu
+   #数据源更新失败
+   ```
+
+   what？？？
+
+   随后一想应该是gnome扩展跟数据源起冲突了，就在gnome shell extensions插件里面看到，我用的Arc主题Arc Menu果然需要更新，点击更新，QQ顶部图标出现，终端刷新数据源正常
