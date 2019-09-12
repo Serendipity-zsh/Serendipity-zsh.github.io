@@ -34,8 +34,10 @@ tag: Manjaro
 使用国内的源有更快的下载速度，pacman能够测试不同源的速度并给它们排名，从中选择一个快的即可。
 
 ```bash
+#也可以在添加软件工具中，在首选项中打开AUR，从AUR检查更新即可
 #Syy会自动检测并更新，Syyu会提示你是否更新
 sudo pacman -Syyu
+#换源，选速度最快的就可以了
 sudo pacman-mirrors -i -c China -m rank
 sudo pacman -Syyu
 ```
@@ -44,13 +46,13 @@ sudo pacman -Syyu
 
 编辑/etc/pacman.conf文件
 
-(刚开始没有vim，先在终端输入:
+(刚开始没有vim，先在终端输入（安装vim）:
 
 ```bash
 sudo pacman -S vim
 ```
 
-安装vim），然后在输入：
+然后在输入：
 
 ```bash
 sudo vim /etc/pacman.conf
@@ -64,7 +66,7 @@ SigLevel = Optional TrustedOnly
 Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 ```
 
-**也可以在添加软件工具中，在首选项中打开AUR，从AUR检查更新即可**
+
 
 然后
 
@@ -138,7 +140,7 @@ sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
 7、刷新缓存
 
 ```bash
-sudo pacman -Syy
+sudo pacman -Syyu
 ```
 
 这一步是为了更新缓存以及导入密钥链。
@@ -159,7 +161,7 @@ https://linux.cn/article-10720-1.html
 
 在谷歌浏览器中装gnome-shell-extensions，可以在你的manjaro里添加各种扩展
 
-(具体的美化调优放在下一个博客写)
+（具体的美化调优放在[下一个博客](https://serendipity-zsh.github.io/2019/08/Manjaro-Gnome美化调优/)写）
 
 ## 四、安装常用的工具
 
