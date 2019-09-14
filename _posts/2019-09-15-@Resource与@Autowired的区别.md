@@ -20,7 +20,7 @@ java：java 8
 
 项目结构：
 
-[项目结构](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/raw/master/images/@Resource/project.png)
+![项目结构](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/raw/master/images/posts/Resource/project.png)
 
 controller层代码：
 
@@ -94,7 +94,7 @@ public class SonOneServiceImpl implements FatherService {
 
 至此代码告一段落，启动项目，浏览器中输入：http://localhost:8080/api/accedeWealth
 
-[第一次结果图](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/raw/master/images/@Resource/result.png)
+![第一次结果图](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/raw/master/images/posts/Resource/result.png)
 
 
 
@@ -166,7 +166,7 @@ private FatherService fatherService;
 
 启动项目，访问http://localhost:8080/api/acedeWealth
 
-[第一次结果图](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/raw/master/images/@Resource/result.png)
+![第一次结果图](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/raw/master/images/posts/Resource/result.png)
 
 ## 第三次改动
 
@@ -228,10 +228,8 @@ PS：这是你会发现 FatherController 类代码中刚才的 `红色波浪线`
 
 结果显示如下：
 
-[第一次结果图](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/raw/master/images/@Resource/result.png)
+![第一次结果图](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/raw/master/images/posts/Resource/result.png)
 
-正常显示预期结果
-
-大致就说这些了，欢迎访问我的GItHub地址：
+正常显示预期结果大致就说这些了，欢迎访问我的GItHub地址：
 
 顺便源码地址奉上：
