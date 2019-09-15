@@ -230,6 +230,6 @@ PS：这是你会发现 FatherController 类代码中刚才的 `红色波浪线`
 
 ![第一次结果图](https://github.com/Serendipity-zsh/Serendipity-zsh.github.io/raw/master/images/posts/Resource/result.png)
 
-正常显示预期结果大致就说这些了，欢迎访问我的GItHub地址：
+正常显示预期结果，大致就说这些了
 
-顺便源码地址奉上：
+顺便源码地址奉上：https://github.com/Serendipity-zsh/Spring-Learning/tree/master/resource-autowired-demo
