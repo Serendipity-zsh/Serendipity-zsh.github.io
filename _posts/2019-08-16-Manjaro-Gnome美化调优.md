@@ -48,9 +48,10 @@ yay -S gnome-shell-theme-copernico-git
 5. Status Area Horizontal Spacing
     使顶栏更加紧凑
 
-6. (K)StatusNotifierItem/AppIndicator Support（系统自带）
-    可以在顶栏显示后台程序图标
-
+6. TopIcons Redux（系统自带）
+    
+（推荐使用：Tray Icons）可以在顶栏显示后台程序图标
+    
 7. Pamac Updates Indicator（系统自带）
     提醒软件更新状态
 
@@ -103,3 +104,5 @@ manjaro默认的终端是不支持设置透明的，所以需要重新安装一�
    what？？？
 
    随后一想应该是gnome扩展跟数据源起冲突了，就在gnome shell extensions插件里面看到，我用的Arc主题Arc Menu果然需要更新，点击更新，QQ顶部图标出现，终端刷新数据源正常
+   
+   PS：QQ图标显示时行时不行，推测是扩展的问题，就把TopIcons Redux删掉，换成Tray Icons了
