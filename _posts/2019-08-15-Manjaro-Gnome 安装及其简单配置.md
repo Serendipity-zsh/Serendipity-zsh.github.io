@@ -332,13 +332,13 @@ source ~/.oh-my-zsh/plugins/incr/incr.zsh
 export UPDATE_ZSH_DAYS=30
 ```
 
-8、中文汉化
+8. 中文汉化
 
 ```bash
 sudo pacman -S --noconfirm firefox-i18n-zh-cn thunderbird-i18n-zh-cn gimp-help-zh_cn libreoffice-still-zh-CN man-pages-zh_cn
 ```
 
-9、安装Mysql
+9. 安装Mysql
 
 ```bash
 #下载mysql

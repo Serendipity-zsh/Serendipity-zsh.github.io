@@ -3,11 +3,10 @@ layout: post
 title: "Manjaro-Gnome美化调优"
 date: 2019-08-16 
 description: "Linux Arch，Manjaro Gnome，Gnome美化"
-
 tag: Manjaro 
----  
+---
 
-
+# Manjaro-Gnome 美化调优
 
 ## 一、安装插件
 
@@ -49,7 +48,8 @@ yay -S gnome-shell-theme-copernico-git
     使顶栏更加紧凑
 
 6. TopIcons Redux（系统自带）
-    
+   
+
 （推荐使用：Tray Icons）可以在顶栏显示后台程序图标
     
 7. Pamac Updates Indicator（系统自带）
@@ -88,21 +88,104 @@ manjaro默认的终端是不支持设置透明的，所以需要重新安装一�
 
 直接在软件管理里面，搜索gnome-terminal-fedora安装就可以了（可能需要重启电脑）
 
-4. Manjaro 2019-09-07更新出错
+## 四、BUGS
 
-   ```bash
-   yay -Syyu
-   ```
+### 1. 2019-09-07更新出错
 
-   QQ的顶部图标消失，以为是数据源没有更新完，就又更新了一下
+```bash
+yay -Syyu
+```
 
-   ```bash
-   yay -Syyu
-   #数据源更新失败
-   ```
+QQ的顶部图标消失，以为是数据源没有更新完，就又更新了一下
 
-   what？？？
+```bash
+yay -Syyu
+#数据源更新失败
+```
 
-   随后一想应该是gnome扩展跟数据源起冲突了，就在gnome shell extensions插件里面看到，我用的Arc主题Arc Menu果然需要更新，点击更新，QQ顶部图标出现，终端刷新数据源正常
-   
-   PS：QQ图标显示时行时不行，推测是扩展的问题，就把TopIcons Redux删掉，换成Tray Icons了
+what？？？
+
+随后一想应该是gnome扩展跟数据源起冲突了，就在gnome shell extensions插件里面看到，我用的Arc主题Arc Menu果然需要更新，点击更新，QQ顶部图标出现，终端刷新数据源正常
+
+PS：QQ图标显示时行时不行，推测是扩展的问题，就把TopIcons Redux删掉，换成Tray Icons了
+
+### 2. 2019-09-26 更新出错
+
+```shell
+#日常更新
+yay -Syyu
+#报错如下
+无法满足依赖关系:
+安装jre (13-1) 破坏了依赖关系， 'jre<13' 被 jdk 所需要
+
+#解决办法
+#在软件管理器中，搜索jdk，删除jdk-12.0
+yay -Syyu
+#此时可以更新成功
+#最后在系在jdk-13就可以了
+#其他版本冲突也是类似的操作
+```
+
+### 3. MySQL 异常
+
+异常一：
+
+```shell
+#初始化失败
+sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+
+#上面初始化失败,提示libicu63没找到:
+$ mysqld: error while loading shared libraries: libicuuc.so.63: cannot open shared object file: No such file or directory
+
+# 进入/usr/lib/icu,发现只有64版本
+
+# 安装icu63
+$ yay -S icu63
+
+# 等待缓慢的下载和安装
+# 完成后再看/usr/lib/icu,发现已经有icu63了
+
+# 再次初始化
+$ sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+
+# 记住临时密码登录,或者修改配置文件免密登录,后者修改/etc/mysql/my.cnf,在最后一行加上
+skip-grant-tables
+
+$ sudo systemctl restart mysqld
+
+# 如果又出现初始化失败的问题,重装即可
+
+$ mysql -u root -p
+# 不用密码[回车]即可
+```
+
+异常二：
+
+```bash
+#启动mysql时报错
+Job for mysqld.service failed because the process exited with error code.See "systemctl status mysqld.service" and "journalctl -xe" for details
+```
+
+一看这个就完全懵比，这是个啥错误
+
+终端输入：
+
+```bash
+ldd /usr/bin/mysqld
+#查看mysql的依赖是否都存在
+#发现下面有“not found”
+libevent_core-2.1.so.6 => not found
+```
+
+这是因为依赖版本更新比较快，已经到libevent_core-2.1.so.7了，但是mysql跟新比较慢
+
+```bash
+#查看现有的依赖
+cd /usr/lib
+ls
+#发现已经到libevent_core-2.1.so.7
+#然后直接复制7为6就可以了
+cp libevent_core-2.1.so.7 libevent_core-2.1.so.6
+#之后就继续你的步骤就可以了
+```
+
