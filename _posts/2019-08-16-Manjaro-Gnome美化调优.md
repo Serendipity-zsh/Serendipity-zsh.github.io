@@ -90,7 +90,7 @@ manjaro默认的终端是不支持设置透明的，所以需要重新安装一�
 
 ## 四、BUGS
 
-### 1. 2019-09-07更新出错
+### 1. 2019-09-07 更新出错
 
 ```bash
 yay -Syyu
@@ -187,5 +187,17 @@ ls
 #然后直接复制7为6就可以了
 cp libevent_core-2.1.so.7 libevent_core-2.1.so.6
 #之后就继续你的步骤就可以了
+```
+
+### 4. 2019-09-26 更新出错
+
+```shell
+yay -Syyu
+#错误：无法从mirrors.ustc.edu.cn：Operation timed out after 10001 milliseconds with 0 out 0f 0 bytes received 获取文件 'core.db'
+
+#更换源
+sudo pacman-mirrors -i -c China -m rank
+sudo yay -Syyu
+#完美解决
 ```
 
