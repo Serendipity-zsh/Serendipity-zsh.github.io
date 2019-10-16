@@ -189,15 +189,28 @@ cp libevent_core-2.1.so.7 libevent_core-2.1.so.6
 #之后就继续你的步骤就可以了
 ```
 
-### 4. 2019-09-26 更新出错
+### 4. 2019-10-12 更新出错
 
 ```shell
 yay -Syyu
-#错误：无法从mirrors.ustc.edu.cn：Operation timed out after 10001 milliseconds with 0 out 0f 0 bytes received 获取文件 'core.db'
+#错误：无法从 mirrors.ustc.edu.cn : Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 获取文件 'archlinuxcn.db'
+#错误：无法升级 archlinuxcn (下载数据库出错)
+# arch4edu                 217.7 KiB   429K/s 00:01 [######################] 100%
+#错误：同步所有数据库失败
+#Error installing repo packages
 
 #更换源
 sudo pacman-mirrors -i -c China -m rank
 sudo yay -Syyu
 #完美解决
+```
+
+### 5. 2019-10-16 更新出错
+
+```shell
+#更上次的大更新错误如出一辙
+#所以就需要我们每次大更新之前，进行换源
+sudo pacman-mirrors -i -c China -m rank
+#选择速度快的就行，一般是ustc和sjtu
 ```
 
