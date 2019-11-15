@@ -8,11 +8,11 @@ tag: Manjaro
 
 # Manjaro-Gnome 美化调优
 
-## 一、安装插件
+## 1. 安装插件
 
 在谷歌扩展商店搜索gnome-shell extrnsion（管理Manjaro扩展的插件）
 
-## 二、美化
+## 2. 美化
 
 ### 主题
 
@@ -58,9 +58,9 @@ yay -S gnome-shell-theme-copernico-git
 8. User Themes (系统自带)
     让用户可以使用shell主题
 
-## 三、调优
+## 3. 调优
 
-1. 设置快捷键：
+### 3.1 设置快捷键
 
 启动终端：打开设置，设备中选择keyboard，添加快捷键
 
@@ -78,19 +78,19 @@ yay -S gnome-shell-theme-copernico-git
 
 快捷键：super+E（super键就是win键）
 
-2. 大号字体
+### 3.2 大号字体
 
 设置->通用辅助功能 开启 大号文本
 
-3. 透明终端
+### 3.3 透明终端
 
 manjaro默认的终端是不支持设置透明的，所以需要重新安装一个终端
 
 直接在软件管理里面，搜索gnome-terminal-fedora安装就可以了（可能需要重启电脑）
 
-## 四、BUGS
+## 4. BUGS
 
-### 1. 2019-09-07 更新出错
+### 4.1 2019-09-07 更新出错
 
 ```bash
 yay -Syyu
@@ -109,7 +109,7 @@ what？？？
 
 PS：QQ图标显示时行时不行，推测是扩展的问题，就把TopIcons Redux删掉，换成Tray Icons了
 
-### 2. 2019-09-26 更新出错
+### 4.2 2019-09-26 更新出错
 
 ```shell
 #日常更新
@@ -126,7 +126,7 @@ yay -Syyu
 #其他版本冲突也是类似的操作
 ```
 
-### 3. MySQL 异常
+### 4.3 MySQL 异常
 
 异常一：
 
@@ -189,7 +189,7 @@ cp libevent_core-2.1.so.7 libevent_core-2.1.so.6
 #之后就继续你的步骤就可以了
 ```
 
-### 4. 2019-10-12 更新出错
+### 4.4 2019-10-12 更新出错
 
 ```shell
 yay -Syyu
@@ -205,12 +205,20 @@ sudo yay -Syyu
 #完美解决
 ```
 
-### 5. 2019-10-16 更新出错
+### 4.5 2019-10-16 更新出错
 
 ```shell
 #更上次的大更新错误如出一辙
 #所以就需要我们每次大更新之前，进行换源
 sudo pacman-mirrors -i -c China -m rank
 #选择速度快的就行，一般是ustc和sjtu
+```
+
+## 5. 常用命令
+
+```shell
+#查看ip
+ip addr
+ip route
 ```
 
