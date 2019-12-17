@@ -3,7 +3,7 @@ layout: post
 title: Redis-Learning
 date: 2019-12-02
 description: 
-tag: "redis,logs,learning"
+tag: "Redis"
 ---
 
 # Redis-Learning
